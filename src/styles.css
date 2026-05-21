@@ -1,0 +1,8 @@
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin: 0; padding: 24px; background:#f6f8fa }
+.container { max-width: 1000px; margin: 0 auto }
+.content { display:flex; gap:20px; align-items:flex-start }
+.panel { width: 360px; background: #fff; padding: 16px; border-radius:8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08) }
+.result { margin: 12px 0 }
+.ok { color: green; font-weight:600 }
+.bad { color: #c0392b; font-weight:600 }
+.controls button { padding:8px 12px; border-radius:6px; border:1px solid #ddd; background:#fff }

@@ -1,0 +1,24 @@
+{
+  "name": "mate-in-one-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start:server": "node server/index.js",
+    "start": "npm-run-all --parallel dev start:server"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "chess.js": "1.1.0",
+    "react-chessboard": "3.5.0"
+  },
+  "devDependencies": {
+    "vite": "5.0.0",
+    "typescript": "5.1.6",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7"
+  }
+}
