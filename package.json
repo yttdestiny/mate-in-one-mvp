@@ -1,0 +1,23 @@
+{
+  "name": "mate-in-one-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "validate:puzzles": "node scripts/validate-puzzles.mjs"
+  },
+  "dependencies": {
+    "@fontsource/fredoka": "^5.2.10",
+    "@fontsource/nunito": "^5.2.7",
+    "@fontsource/zcool-kuaile": "^5.2.8",
+    "chess.js": "^1.4.0",
+    "lucide-react": "^1.16.0",
+    "react": "18.2.0",
+    "react-chessboard": "4.7.3",
+    "react-dom": "18.2.0",
+    "vite": "^7.2.4"
+  }
+}
